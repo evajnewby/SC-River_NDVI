@@ -5,9 +5,11 @@ Author: Eva Newby (https://github.com/evajnewby)
 ## About
 The following repository was created for edicational purposes for EDS 220 - Environmental Data, for the Masters of Environmental Data Science program at the Bren School of Environmental Science and Management at the University of California, Santa Barbara. 
 
-The purpose of this repository is to hold both data and code necessary for the completion of the Normalized Difference Vegetation Index (NDVI) maps and one plot showing the seasonal cycles of vgetation productivity compared with the NDVI. 
+The purpose of this repository is to hold both data and code necessary for the completion of the Normalized Difference Vegetation Index (NDVI) maps and one plot showing the seasonal cycles of vgetation productivity compared with the NDVI for the Santa Clara River. 
 
-This repository contains one R project, one Quarto document, ...
+This repository contains one data folder, one R project, one Quarto document, one rendered html and associated files. 
+
+The `SC_River_NDVI.qmd` contains all the code necessay to read in the raster data, make an NDVI function, compute NDVI for all scenes, and compare NDVI across vegetation communities. The `SC_River_NDVI.html` is the rendered version. 
 
 The data folder contains the landsat data tif files for the dates, along with the study_sites.shp, .prj, and .dbf. This folder was added to the gitignore to prevent any pushing issues or delays.
 
@@ -22,8 +24,8 @@ The data contains multi-spectral remote sensing data from the Landsat's operatio
 - Erroneous values set to NA,
 - Scale factor set to 100,
 - Bands 2-7,
-- Dates in file name
- with scenes from the following dates:
+
+Dates in file name with scenes from the following dates:
 - 2018-06-12,
 - 2018-08-15,
 - 2018-10-18,
@@ -32,7 +34,8 @@ The data contains multi-spectral remote sensing data from the Landsat's operatio
 - 2019-02-23,
 - 2019-04-12,
 - 2019-07-01.
-Additionally, study_sites are polygons representing the vegetation community sites.
+  
+Additionally, the study_sites.shp are polygons representing the vegetation community sites.
 
 ## Repository Structure
 ```bash
