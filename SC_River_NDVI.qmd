@@ -4,6 +4,9 @@ author:
   name: Eva Newby
 date: December 7, 2024
 format: html
+execute: 
+  warning: false
+  error: false
 editor: visual
 editor_options: 
   chunk_output_type: console
