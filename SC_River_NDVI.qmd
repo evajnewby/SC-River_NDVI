@@ -1,12 +1,13 @@
 ---
 title: "Santa Clara River Plant Phenology"
+author:
+  name: Eva Newby
+date: December 7, 2024
 format: html
 editor: visual
 editor_options: 
   chunk_output_type: console
 ---
-
-# Santa Clara River Plant Phenology
 
 ## About
 
